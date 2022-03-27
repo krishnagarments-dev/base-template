@@ -3,6 +3,8 @@ from tkinter import *
 
 root = Tk()
 root.title("Login")
+root.resizable(False, False)
+
 head = Label(root,text="Login")
 head.grid(row=0,columnspan=4)
 

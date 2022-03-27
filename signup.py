@@ -2,6 +2,8 @@ from tkinter import *
 
 top = Tk()
 top.title("Sign Up")
+top.resizable(False, False)
+
 head = Label(top,text="Sign Up")
 head.grid(row=0,columnspan=3)
 
