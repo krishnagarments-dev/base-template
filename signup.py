@@ -33,7 +33,7 @@ r += 1
 lblpass = Label(top,text="Password")
 lblpass.grid(row=r,column=cl)
 
-password = Entry(top)
+password = Entry(top,show="*")
 password.grid(row=r,column=ce)
 
 # Next
@@ -43,7 +43,7 @@ r += 1
 lblconfirmpass = Label(top,text="Confirm Password")
 lblconfirmpass.grid(row=r,column=cl)
 
-confirmpassword = Entry(top)
+confirmpassword = Entry(top,show="*")
 confirmpassword.grid(row=r,column=ce)
 
 # Next

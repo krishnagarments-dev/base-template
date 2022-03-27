@@ -15,7 +15,7 @@ usr.grid(row=1,column=1)
 lblpass = Label(root,text="Password")
 lblpass.grid(row=2,column=0)
 
-passwd = Entry(root)
+passwd = Entry(root,show="*")
 passwd.grid(row=2,column=1)
 
 # Login
