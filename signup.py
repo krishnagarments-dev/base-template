@@ -1,4 +1,4 @@
-# Template of simple tkinter signup window
+# Template of simple tkinter signup window.
 from tkinter import *
 
 top = Tk()
