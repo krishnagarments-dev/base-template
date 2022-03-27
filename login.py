@@ -1,4 +1,4 @@
-
+# Template of simple tkinter login page
 from tkinter import *
 
 root = Tk()
